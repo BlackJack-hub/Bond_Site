@@ -15,6 +15,15 @@
 	<link href="style.css" rel="stylesheet">
 	<link href="css/responsive.css" rel="stylesheet">
 
+	<link rel="stylesheet" href="./css/contacts.css">
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="./js/totop.js"></script>
+	
 
 	<!--[if lt IE 9]>
 	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -754,66 +763,37 @@
 	</div>
 </section>
 <!--contact heading-->
-<section id="contact">
-	<div class="section-heading contact-heading text-center text-uppercase">
-		<h2>OUR <span>Contact</span></h2>
-	</div>
+<section class="contact">
+    <div class="section-heading contact-heading text-center text-uppercase">
+        <h2>Наші <span>Контакти</span></h2>
+    </div>
 
-	<div id="map">
+    <div class="map">
+        <iframe class='map'
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10255.266746831354!2d36.2284908!3d50.014791!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6daed05394f03251!2z0KXQsNGA0YzQutC-0LLRgdC60LjQuSDQvdCw0YbQuNC-0L3QsNC70YzQvdGL0Lkg0YPQvdC40LLQtdGA0YHQuNGC0LXRgiDRgNCw0LTQuNC-0Y3Qu9C10LrRgtGA0L7QvdC40LrQuA!5e0!3m2!1sru!2sua!4v1576401776495!5m2!1sru!2sua"
+                allowfullscreen=""
+        ></iframe>
+    </div>
+    <div class="contact-info text-left text-uppercase">
 
+        <h2>Телефон: +38 (057) 702-14-46</h2>
+        <h2>E-mail: d_se@nure.ua</h2>
 
-	</div>
-	<div id="map-overlay" class="text-left text-uppercase">
-		<div class="container">
-			<h2>+29 20 466 4241</h2>
+    </div>
 
-			<h2>info@robotx.com</h2>
-		</div>
-	</div>
-	<!-- contact massage-->
-	<div class="contact-form">
-		<div class="container">
-			<div class="row">
-				<form action="#">
-				    <h1>Sign in</h1>
-					<br/>
-					<div class="col-sm-4">
-						<label for="usr">Username</label>
-						<input type="" class="form-control" id="usr">
-					</div>
-					<div class="col-sm-4">
-						<label for="password">Password</label>
-						<input type="password" class="form-control" id="password">
-					</div>
-				</form>
-			</div>
-		</div>
-	</div>
 </section>
-<!-- footer-area-->
+<!--footer area-->
 <footer>
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-2 text-center">
-				<a href=""><img src="img/fo-logo.png" alt="logo"></a>
-			</div>
-			<div class="col-sm-8">
-				<div class="footer-p text-center">
-					<p>© Copyright 2014 - 2015, All Rights Reserved, Designed by: www.designoatmeal.com</p>
-				</div>
-			</div>
-			<div class="col-sm-2">
-				<div class="footer-social text-center">
-					<a href=""><i class="fa fa-facebook"></i></a>
-					<a href=""><i class="fa fa-twitter"></i></a>
-					<a href=""><i class="fa fa-instagram"></i></a>
-					<a href=""><i class="fa fa-google-plus"></i></a>
-					<a href=""><i class="fa fa-rss"></i></a>
-				</div>
-			</div>
-		</div>
-	</div>
+<ul>
+    <li><a href="#"><img class="footer-logo" src="./img/logo_site.png"></a></li>
+    <li><a href="http://facebook.com/se121.nure.ua"><img class='footer-social' src="./img/fb.png"></a></li>
+    <li><a href="http://instagram.com/se121.nure.ua"><img class="footer-social" src="./img/inst.jpg"></a></li>
+    <li><a href="http://linkedin.com/company/se121-nure-ua"><img class='footer-social' src="./img/in.png"></a></li>
+</ul>
 </footer>
+
+<a id="totop"><img width="70" src="./pics/arrow.png"></a>
+	
 <script src="js/jquery-1.11.3.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/isotope.2.2.2min.js"></script>
