@@ -647,10 +647,15 @@ h1 sup {
 	padding-bottom: 4px;
 }
 
-/************* our contact area *********/
+/******Contacts******/
+.contact{
+	background-color: #171717;
+	padding-bottom: 10px;
+}
 #contact {
 	padding: 70px 0 0;
-	background-color: #000000;
+
+	color: black;
 	position: relative;
 }
 
@@ -658,90 +663,39 @@ h1 sup {
 	padding: 20px 0;
 }
 
-#map {
+.map {
 	height: 300px;
 	width: 100%;
-
+	border: 0;
+}
+.contact-info h2{
+	padding-left: 30px;
+	padding-top: 25px;
+	padding-bottom: 10px;
 }
 
-#map-overlay {
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	color: #fff;
-	background: rgba(220, 1, 1, .5);
-	justify-content: center;
-	flex-direction: column;
-	display: flex;
-
+/*******footer*******/
+footer li{
+	list-style: none;
+	display: inline;
+	margin: 15px;
 }
-
-#map-overlay h2 {
-	padding: 0 35px 0;
+footer{
+	background-color: #202020;
+	padding: 10px 0;
 }
-
-/******** contact form *******/
-.contact-form {
-	padding: 70px 0;
-	color: #fff;
+.footer-social{
+	height: 25px;
 }
-
-.form-control {
-	border-radius: 0;
+.footer-logo{
+	margin-right: 450px;
+	height: 60px;
 }
-
-input[type="text"], input[type="number"], input[type="email"] {
-	height: 40px;
-	margin-bottom: 20px;
-
-}
-
-textarea {
-	margin-bottom: 40px;
-}
-
-label {
-	display: inline-block;
-	max-width: 100%;
-	margin-bottom: 10px;
-	font-weight: 400;
-	font-size: 18px;
-}
-
-.red-btn {
-	line-height: 40px;
-	width: 250px;
-	border-radius: 0;
-	background: #EB0000;
-	font-size: 16px;
-}
-
-.red-btn:hover {
-	color: #fff;
-}
-
-/******* footer css********/
-footer {
-	padding: 25px 0 20px;
-	background-color: #EB0000;
-	color: #FFF;
-}
-
-.footer-p {
-	padding: 10px;
-	font-size: 16px;
-}
-
-.footer-social i {
-	padding: 12px 5px;
-	font-size: 18px;
-
-}
-
-.footer-social i:hover {
-	color: #000000;
+/*****toTop-button*****/
+#totop {
+	position: fixed;
+	bottom: 25px;
+	right: 10px;
+	cursor:pointer;
+	display:none;
 }
