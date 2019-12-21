@@ -648,14 +648,10 @@ h1 sup {
 }
 
 /******Contacts******/
-.contact{
+#contact {
 	background-color: #171717;
 	padding-bottom: 10px;
-}
-#contact {
-	padding: 70px 0 0;
-
-	color: black;
+	color: white;
 	position: relative;
 }
 
