@@ -203,7 +203,7 @@ header .navbar {
 }
 
 .section-heading span {
-  color: #56a6c1;
+  color: #fff;
 }
 
 .single-item {
@@ -531,7 +531,7 @@ h1 sup {
 
 #news {
   padding: 70px 0;
-  background: url(img/home-bg.jpg) no-repeat;
+  background: url(img/newsBg.jpg) no-repeat;
   background-size: cover;
 }
 
