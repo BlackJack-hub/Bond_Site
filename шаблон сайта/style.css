@@ -523,6 +523,10 @@ h1 sup {
   background: #56a6c1;
   color: #fff;
 }
+#my_good_id {
+  font-family: "Times New Roman", Times, serif; /* Шрифт с засечками */
+  font-style: italic; /* Курсивное начертание */
+}
 
 /**************news area ****************/
 .news-heading {
