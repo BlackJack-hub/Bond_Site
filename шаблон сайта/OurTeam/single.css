@@ -6,6 +6,13 @@
 .clearfix:after {
   clear: both;
 }
+span {
+  line-height: 2em;
+  background: antiquewhite;
+}
+.bgTeam {
+  background: #56a6c1;
+}
 body {
   font-family: Cambria, Palatino, "Palatino Linotype", "Palatino LT STD",
     Georgia, serif;
