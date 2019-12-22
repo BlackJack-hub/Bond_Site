@@ -186,8 +186,8 @@ header .navbar {
   bottom: -240px !important;
 }
 
-/********** SERVICE AREA**************/
-#service {
+/********** STUDENT AREA**************/
+#students {
   padding: 80px 0 160px;
   background-color: #000;
   color: #fff;
@@ -453,28 +453,28 @@ a.btn.btn-trans:hover {
   opacity: 1;
 }
 
-/********* price area *******/
-#price {
+/********* alternatives area *******/
+#alternatives {
   padding: 80px 0;
   color: #fff;
   background-color: #000000;
 }
 
-.single-price:hover .price-top {
+.single-alternatives:hover .price-top {
   background-color: #333333;
 }
 
-.single-price {
+.single-alternatives {
   margin-top: 50px;
 }
 
-.price-top {
+.alternatives-top {
   background-color: #f20101;
   padding: 25px 0;
   transition: all 0.3s;
 }
 
-.price-top h3 {
+.alternatives-top h3 {
   font-size: 24px;
   font-weight: normal;
 }
@@ -488,27 +488,27 @@ h1 sup {
   top: -1.5em;
 }
 
-.price-top i {
+.alternatives-top i {
   font-size: 50px;
   padding: 10px 0;
 }
 
-.price-top h1 {
+.alternatives-top h1 {
   font-size: 65px;
 }
 
-.price-bottom {
+.alternatives-bottom {
   color: #000;
   background-color: #e8e4e4;
   padding: 30px 0;
 }
 
-.price-bottom p {
+.palternatives-bottom p {
   line-height: 24px;
   padding: 10px;
 }
 
-.price-bottom a {
+.alternatives-bottom a {
   width: 230px;
   color: #fff;
   background: #000;
@@ -519,7 +519,7 @@ h1 sup {
   margin-top: 20px;
 }
 
-.price-bottom a:hover {
+.alternatives-bottom a:hover {
   background: #eb0000;
   color: #fff;
 }
