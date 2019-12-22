@@ -398,7 +398,7 @@ header .navbar {
 
 a.btn.btn-trans:hover {
   color: #fff;
-  background: red;
+  background: #56a6c1;
 }
 
 /********* isotop ********/
@@ -413,7 +413,7 @@ a.btn.btn-trans:hover {
 
 .gl-overlay {
   position: absolute;
-  background: rgba(242, 0, 0, 0.6);
+  background: rgba(86, 166, 193, 0.6);
   top: 0;
   left: 0;
   right: 0;
@@ -446,7 +446,7 @@ a.btn.btn-trans:hover {
 }
 
 .gl-overlay i:hover {
-  background: #eb0000;
+  background: #56a6c1;
 }
 
 .gl-overlay:hover {
@@ -520,7 +520,7 @@ h1 sup {
 }
 
 .alternatives-bottom a:hover {
-  background: #eb0000;
+  background: #56a6c1;
   color: #fff;
 }
 
