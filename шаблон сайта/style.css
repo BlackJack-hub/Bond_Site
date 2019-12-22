@@ -151,7 +151,7 @@ header .navbar {
 }
 
 .home-text span {
-  color: #f20101;
+  color: #56a6c1;
   font-weight: 700;
 }
 
@@ -203,7 +203,7 @@ header .navbar {
 }
 
 .section-heading span {
-  color: #f20101;
+  color: #56a6c1;
 }
 
 .single-item {
@@ -214,7 +214,7 @@ header .navbar {
 
 .single-item i {
   font-size: 80px;
-  color: #f20101;
+  color: #56a6c1;
   padding: 15px;
 }
 
@@ -230,7 +230,7 @@ header .navbar {
 .single-item a.btn-red {
   margin-bottom: 20px;
   padding: 6px 10px;
-  background-color: #f20101;
+  background-color: #56a6c1;
   border-radius: 0;
   font-weight: 700;
   color: #fff;
@@ -279,7 +279,7 @@ header .navbar {
   width: 0;
 
   border-right: 12px solid transparent;
-  border-top: 12px solid #f20101;
+  border-top: 12px solid #56a6c1;
   border-left: 12px solid transparent;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -289,7 +289,7 @@ header .navbar {
 
 .member-social-icon i {
   padding: 20px 7px;
-  color: #f20101;
+  color: #56a6c1;
   font-size: 20px;
   text-align: center;
   -webkit-transition: all 0.3s;
@@ -321,7 +321,7 @@ header .navbar {
 }
 
 .single-team:hover p {
-  border-bottom: 0 solid #f20101;
+  border-bottom: 0 solid #56a6c1;
 }
 
 .single-team:hover p::after {
@@ -331,7 +331,7 @@ header .navbar {
 
 .single-team p {
   font-size: 18px;
-  border-bottom: 7px solid #f20101;
+  border-bottom: 7px solid #56a6c1;
   overflow: hidden;
 }
 
@@ -352,7 +352,7 @@ header .navbar {
 
 .bar .progress {
   height: 12px;
-  background-color: #f20101;
+  background-color: #56a6c1;
 }
 
 .bar .progress-bar {
@@ -383,7 +383,7 @@ header .navbar {
 
 .btn-trans {
   width: 180px;
-  border: 1px solid #f20101;
+  border: 1px solid #56a6c1;
   height: 50px;
   line-height: 38px;
   color: #fff;
@@ -469,7 +469,7 @@ a.btn.btn-trans:hover {
 }
 
 .alternatives-top {
-  background-color: #f20101;
+  background-color: #56a6c1;
   padding: 25px 0;
   transition: all 0.3s;
 }
@@ -566,7 +566,7 @@ h1 sup {
 
 .news-date {
   padding: 10px 20px;
-  background-color: red;
+  background-color: #56a6c1;
   width: 110px;
   height: 110px;
   color: #fff;
@@ -601,7 +601,7 @@ h1 sup {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(256, 0, 0, 0.8);
+  background: rgba(86, 166, 193, 0.8);
   z-index: -1;
 }
 
